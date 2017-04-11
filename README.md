@@ -40,7 +40,7 @@ HUION PenTablet Pen stylus          id: 14  type: STYLUS</p>
 <li>Put this in the terminal, defining the desired keys for each button (Top-down on the tablet Huion H610 Pro) :</li>
 </ul>
 <pre><code>xsetwacom --set "HUION PenTablet Pad pad" Button 1 "key +ctrl +z -z -ctrl" <br>
-xsetwacom --set "HUION PenTablet Pad pad" Button 2 “key e” <br>
+xsetwacom --set "HUION PenTablet Pad pad" Button 2 "key e" <br>
 xsetwacom --set "HUION PenTablet Pad pad" Button 3 "key +ctrl" <br>
 xsetwacom --set "HUION PenTablet Pad pad" Button 8 "key +" <br>
 xsetwacom --set "HUION PenTablet Pad pad" Button 9 "key -" <br>
