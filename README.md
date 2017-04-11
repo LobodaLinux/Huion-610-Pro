@@ -50,5 +50,20 @@ xsetwacom --set "HUION PenTablet Pad pad" Button 12 "key space" <br>
 
 </code></pre>
 <h1>And ready, the buttons will function. :)</h1>
-
-
+<br><br>
+a) You can automate it by making script file that autoruns every time you open a session. For example, my script is called Huion.Default.sh and I like bebop from AskUbuntu's button scheme:<br>
+<br>
+<pre><code>#!/bin/sh<br>
+xsetwacom --set 'HUION PenTablet Pad pad' Button 1 "key +ctrl +z -z -ctrl"<br>
+xsetwacom --set 'HUION PenTablet Pad pad' Button 2 "key e"<br>
+xsetwacom --set 'HUION PenTablet Pad pad' Button 3 "key b"<br>
+xsetwacom --set 'HUION PenTablet Pad pad' Button 8 "key +"<br>
+xsetwacom --set 'HUION PenTablet Pad pad' Button 9 "key -"<br>
+xsetwacom --set 'HUION PenTablet Pad pad' Button 10 "key ]"<br>
+xsetwacom --set 'HUION PenTablet Pad pad' Button 11 "key ["<br>
+xsetwacom --set 'HUION PenTablet Pad pad' Button 12 "key p"<br></code></pre>
+<br>
+b) Don't forget to give the script execution permission:<br>
+<pre><code>chmod +x Huion.Default.sh<br></code></pre>
+<br>
+c) You can make different scripts and button schemes for the different Apps you use with the tablet. When making lauchers, you can make those scripts lauch before you launch the apps themselves. You do this by editing the Command in the laucher or desktop file. For example: Command: ~/./GIMP-tablet-scheme.sh && /usr/bin/gimp <br>	
