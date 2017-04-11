@@ -30,11 +30,11 @@ The buttons are: 1,2,3,8,9,10,11,12.
 
 Put this in the terminal, defining the desired keys for each button (Top-down on the tablet Huion H610 Pro):
 
-xsetwacom --set "HUION PenTablet Pad pad" Button 1 "key +ctrl +z -z -ctrl"
-xsetwacom --set "HUION PenTablet Pad pad" Button 2 “key e”
-xsetwacom --set "HUION PenTablet Pad pad" Button 3 "key +ctrl"
-xsetwacom --set "HUION PenTablet Pad pad" Button 8 "key +"
-xsetwacom --set "HUION PenTablet Pad pad" Button 9 "key -"
-xsetwacom --set "HUION PenTablet Pad pad" Button 10 "key ["
-xsetwacom --set "HUION PenTablet Pad pad" Button 11 "key ]"
-xsetwacom --set "HUION PenTablet Pad pad" Button 12 "key space"
+xsetwacom --set "HUION PenTablet Pad pad" Button 1 "key +ctrl +z -z -ctrl" <br>
+xsetwacom --set "HUION PenTablet Pad pad" Button 2 “key e” <br>
+xsetwacom --set "HUION PenTablet Pad pad" Button 3 "key +ctrl" <br>
+xsetwacom --set "HUION PenTablet Pad pad" Button 8 "key +" <br>
+xsetwacom --set "HUION PenTablet Pad pad" Button 9 "key -" <br>
+xsetwacom --set "HUION PenTablet Pad pad" Button 10 "key [" <br>
+xsetwacom --set "HUION PenTablet Pad pad" Button 11 "key ]" <br>
+xsetwacom --set "HUION PenTablet Pad pad" Button 12 "key space" <br>
