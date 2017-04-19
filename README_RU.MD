@@ -1,7 +1,7 @@
 # Huion-610-Pro <br>
 <br>
 Как использовать графические кнопки Huion 610 Pro в ubuntu / debian / linux mint / deepin и т. Д. Linux <br>
-          <H2> РЕШЕНИЕ: </ h2>
+          <H2> РЕШЕНИЕ: </h2>
 <ul>
 <li> Установка <strong> <a href="https://github.com/LobodaLinux/Huion-610-Pro/blob/master/digimend-dkms_6_all.deb" target="blank"> digimend-kernel-drivers- 6 </a> </ strong> из файла deb, используя gdebi или Synaptic или терминал. </li>
 <li> Создайте 52-tablet.conf, потому что его нет в системе: </li>
