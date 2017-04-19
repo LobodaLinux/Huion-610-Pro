@@ -29,7 +29,7 @@ EndSection
 </li>
 <li>
 <P> Откройте терминал и введите следующее: <code>xsetwacom --list</code><br>
-You should see something like this:</p>
+Увидете что-то вроде:</p>
 <blockquote>
 <p>HUION PenTablet Pad pad           id: 13  type: PAD<br>
 HUION PenTablet Pen stylus          id: 14  type: STYLUS</p>
