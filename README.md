@@ -2,7 +2,7 @@
 <br>
 How to use graphical tablet Huion 610 Pro buttons in ubuntu / debian / linux mint / deepin etc. linux<br>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://github.com/LobodaLinux/Huion-610-Pro/blob/master/h610_pro.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="360" src="https://github.com/LobodaLinux/Huion-610-Pro/blob/master/h610_pro.png" width="640" /></a></div>
+<a href="https://github.com/LobodaLinux/Huion-610-Pro/blob/master/h610_pro.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="894" src="https://github.com/LobodaLinux/Huion-610-Pro/blob/master/h610_pro.png" width="894" /></a></div>
           <h2>SOLUTION:</h2>
 <ul>
 <li>Installing <strong><a href="https://github.com/LobodaLinux/Huion-610-Pro/blob/master/digimend-dkms_6_all.deb" target="blank">digimend-kernel-drivers-6</a></strong> from deb file using gdebi or synaptic or terminal.</li>
