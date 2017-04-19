@@ -3,7 +3,7 @@
 How to use graphical tablet Huion 610 Pro buttons in ubuntu linux<br>
           <h2>SOLUTION:</h2>
 <ul>
-<li>Installing digimend-kernel-drivers-6 from source followings the instructions.</li>
+<li>Installing <strong><a href="https://github.com/LobodaLinux/app_installation/blob/master/Windows10-icons.tar.gz" target="blank">digimend-kernel-drivers-6</a></strong> from source followings the instructions.</li>
 <li>Creating 52-tablet.conf because it didn't exist:</li>
 </ul>
 <pre><code>cd /etc/X11
