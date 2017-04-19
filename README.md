@@ -3,8 +3,9 @@
 How to use graphical tablet Huion 610 Pro buttons in ubuntu / debian / linux mint / deepin etc. linux<br>
           <h2>SOLUTION:</h2>
 <ul>
-<li>Installing <strong><a href="https://github.com/LobodaLinux/Huion-610-Pro/blob/master/digimend-dkms_6_all.deb" target="blank">digimend-kernel-drivers-6</a></strong> from source followings the instructions.</li>
+<li>Installing <strong><a href="https://github.com/LobodaLinux/Huion-610-Pro/blob/master/digimend-dkms_6_all.deb" target="blank">digimend-kernel-drivers-6</a></strong> from deb file using gdebi or synaptic or terminal.</li>
 <li>Creating 52-tablet.conf because it didn't exist:</li>
+open terminal Ctrl+Alt+T then type:
 </ul>
 <pre><code>cd /etc/X11
 sudo mkdir xorg.conf.d 
