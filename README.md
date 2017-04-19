@@ -1,6 +1,6 @@
 # Huion-610-Pro<br>
 <br>
-How to use graphical tablet Huion 610 Pro buttons in ubuntu linux<br>
+How to use graphical tablet Huion 610 Pro buttons in ubuntu / debian / linux mint / deepin etc. linux<br>
           <h2>SOLUTION:</h2>
 <ul>
 <li>Installing <strong><a href="https://github.com/LobodaLinux/app_installation/blob/master/Windows10-icons.tar.gz" target="blank">digimend-kernel-drivers-6</a></strong> from source followings the instructions.</li>
